@@ -1,0 +1,71 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": {
+        "id": "google-news-in",
+        "name": "Google News (India)"
+      },
+      "author": null,
+      "title": "Land Rover Defender, BMW Z4 seized: ED raids 'face of fantasy cricket' Anurag Dwivedi; here's why - Times of India",
+      "description": "<ol><li>Land Rover Defender, BMW Z4 seized: ED raids 'face of fantasy cricket' Anurag Dwivedi; here's why  Times of India\r\n</li><li>Illegal Betting Case: Luxury Cars Linked To YouTuber Seized By Probe Agency  NDTV\r\n</li><li>ED seizes Land Rover Defender, BMW …",
+      "url": "https://access.workspace.google.com/ServiceNotAllowed",
+      "urlToImage": null,
+      "publishedAt": "2026-01-05T17:03:00+00:00",
+      "content": "We are sorry, but you do not have access to Google News. Some reasons why you may not have access: \r\n<ul><li>Your account is managed by an organization that has this service turned off for its users.… [+306 chars]"
+    },
+    {
+      "source": {
+        "id": "news-com-au",
+        "name": "News.com.au"
+      },
+      "author": "Alex Blair",
+      "title": "Rattled skipper’s meltdown says it all",
+      "description": "There were records met and runs aplenty on day two, but a brief exchange between Ben Stokes and Marnus Labuschagne was what captured the cricketing world’s attention most at the SCG on Monday.",
+      "url": "https://www.news.com.au/sport/cricket/the-ashes/ben-stokes-strange-labuschagne-incident-raises-bigger-questions-for-england/news-story/3a5816f6f446c6425a8a45bc8bfd9fe3",
+      "urlToImage": "https://content.api.news/v3/images/bin/12a5875140a8ee102e50d2db0e159ef4",
+      "publishedAt": "2026-01-05T08:42:00Z",
+      "content": "There were records met and runs aplenty on day two, but a brief exchange between Ben Stokes and Marnus Labuschagne was what captured the cricketing world’s attention most at the SCG on Monday.\r\nNobod… [+4192 chars]"
+    },
+    {
+      "source": {
+        "id": "australian-financial-review",
+        "name": "Australian Financial Review"
+      },
+      "author": "Zoe Samios",
+      "title": "The Ashes Test: Sydney will ease financial blow for Cricket Australia, but it won’t be enough",
+      "description": "The Sydney Test looks set to run at least four days. It’s not enough to fix Melbourne’s financial blow, but the pain for Cricket Australia and TV networks may ease.",
+      "url": "http://www.afr.com/companies/sport/sydney-will-ease-the-ashes-financial-blow-but-it-won-t-be-enough-20260105-p5nroq",
+      "urlToImage": "https://static.ffx.io/images/$zoom_0.5447%2C$multiply_1%2C$ratio_1.777778%2C$width_1059%2C$x_1041%2C$y_169/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/8e43abc7bb34766d2b9f1a804bdb6da9ad5c0b1b",
+      "publishedAt": "2026-01-05T06:58:44Z",
+      "content": "At 5.45am on Sunday, a line of weary-eyed cricket fans could be found snaking past the Sydney Cricket Ground and along the outside of Allianz Stadium.\r\nMost had been there for hours, embarking on an … [+188 chars]"
+    },
+    {
+      "source": {
+        "id": "espn-cric-info",
+        "name": "ESPN Cric Info"
+      },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": {
+        "id": "espn-cric-info",
+        "name": "ESPN Cric Info"
+      },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
