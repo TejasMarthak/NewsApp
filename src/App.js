@@ -6,7 +6,11 @@ import News from "./components/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default class App extends Component {
-  pageSize = 15;
+  pageSize = 8;
+  country = "us";
+  apiKey = "1add6ffb310d4b5fa6849c144e922bb7";
+  /*bf432cd212ee46c4a0fdce79ba586a81 - tej*/
+  /*1add6ffb310d4b5fa6849c144e922bb7 - cvm*/
 
   render() {
     return (
@@ -22,8 +26,8 @@ export default class App extends Component {
                   key={"general"}
                   pageSize={this.pageSize}
                   category="general"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
@@ -35,8 +39,8 @@ export default class App extends Component {
                   key={"business"}
                   pageSize={this.pageSize}
                   category="business"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
@@ -48,8 +52,8 @@ export default class App extends Component {
                   key={"entertainment"}
                   pageSize={this.pageSize}
                   category="entertainment"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
@@ -61,8 +65,8 @@ export default class App extends Component {
                   key={"health"}
                   pageSize={this.pageSize}
                   category="health"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
@@ -74,8 +78,8 @@ export default class App extends Component {
                   key={"science"}
                   pageSize={this.pageSize}
                   category="science"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
@@ -87,8 +91,8 @@ export default class App extends Component {
                   key={"sports"}
                   pageSize={this.pageSize}
                   category="sports"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
@@ -100,8 +104,8 @@ export default class App extends Component {
                   key={"technology"}
                   pageSize={this.pageSize}
                   category="technology"
-                  country="us"
-                  apiKey="1add6ffb310d4b5fa6849c144e922bb7"
+                  country={this.country}
+                  apiKey={this.apiKey}
                 />
               }
             />
