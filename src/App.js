@@ -9,8 +9,8 @@ export default class App extends Component {
   pageSize = 8;
   country = "us";
   apiKey = "1add6ffb310d4b5fa6849c144e922bb7";
-  /*bf432cd212ee46c4a0fdce79ba586a81 - tej*/
-  /*1add6ffb310d4b5fa6849c144e922bb7 - cvm*/
+  /*bf432cd212ee46c4a0fdce79ba586a81 - t*/
+  /*1add6ffb310d4b5fa6849c144e922bb7 - c*/
 
   render() {
     return (
