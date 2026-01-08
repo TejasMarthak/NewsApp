@@ -35,12 +35,15 @@ export class News extends Component {
   }
 
   async updateNews() {
+    this.props.setProgress(10);
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
 
     this.setState({ loading: true });
 
     try {
+      this.props.setProgress(30);
       let response = await fetch(url);
+      this.props.setProgress(70);
       let parsedData = await response.json();
 
       // Only update state if the API call was successful
@@ -60,6 +63,8 @@ export class News extends Component {
       console.error("Network Error:", error);
       this.setState({ loading: false, articles: [] });
     }
+
+    this.props.setProgress(100);
   }
 
   async componentDidMount() {
@@ -108,7 +113,7 @@ export class News extends Component {
                 this.state.articles &&
                 this.state.articles.map((element) => {
                   return (
-                    <div className="col md-4" key={element.url}>
+                    <div className="col-12 col-md-4" key={element.url}>
                       <NewsItem
                         title={element.title ? element.title : ""}
                         description={
